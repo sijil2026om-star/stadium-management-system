@@ -839,7 +839,16 @@
     initData();
     showLogin();
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pocketbase/0.21.1/pocketbase.umd.js"></script>
 
+<script>
+    // 2. ربط الكود بمشروعك الخاص في Pockethost
+    const pb = new PocketBase('https://health-exact.pockethost.io');
+
+    // 3. تشغيل الدوال الخاصة بك
+    initData();
+    showLogin();
+</script>
 </script>
 
 </body>
